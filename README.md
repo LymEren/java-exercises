@@ -1,1 +1,1 @@
-Inludes Java Exercise Files
+This repository contains Java exercise files.
