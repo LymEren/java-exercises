@@ -4,7 +4,6 @@ package src;
 The program return the first word with the greatest number of repeated letters */
 
 import java.util.*;
-import java.io.*;
 
 class LetterFunc {
     
@@ -38,9 +37,10 @@ class LetterFunc {
         return str;
     }
     public static void main (String[] args) {     
-        Scanner  s = new Scanner(System.in);
-        LetterFunc c = new LetterFunc();
-        System.out.print(c.LetterCounter(s.nextLine()));  
+        try (Scanner s = new Scanner(System.in)) {
+            LetterFunc c = new LetterFunc();
+            System.out.print(c.LetterCounter(s.nextLine()));
+        }  
       }  
 
 }
