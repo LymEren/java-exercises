@@ -1,1 +1,1 @@
-This repository contains Java exercise files.
+Java Exercise Files - Eyyub Eren
